@@ -10,7 +10,7 @@
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #ffffff;
+  --light: #eeeeee;
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -50,8 +50,8 @@ section {
 body {
   margin: 0;
   font-family: "Old Standard TT", system-ui;
-  font-size: 1rem;
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 500;
   line-height: 1.5;
   color: #6c757d;
   text-align: left;
@@ -381,7 +381,7 @@ h6,
 .h6 {
   margin-bottom: 0.5rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.1;
   color: #343a40;
 }
 
@@ -449,26 +449,26 @@ h6,
 }
 
 .display-1 {
-  font-size: 10rem;
-  font-weight: 300;
-  line-height: 1.2;
+  font-size: 8rem;
+  font-weight: 500;
+  line-height: 1.1;
 }
 
 @media (max-width: 1200px) {
   .display-1 {
-    font-size: calc(2.125rem + 10.5vw);
+    font-size: calc(1.325rem + 8.5vw);
   }
 }
 
 .display-2 {
-  font-size: 5.5rem;
-  font-weight: 300;
+  font-size: 4rem;
+  font-weight: 500;
   line-height: 1.2;
 }
 
 @media (max-width: 1200px) {
   .display-2 {
-    font-size: calc(1.675rem + 5.1vw);
+    font-size: calc(1.254rem + 4vw);
   }
 }
 
