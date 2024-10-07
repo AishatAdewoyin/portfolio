@@ -456,7 +456,7 @@ h6,
 
 @media (max-width: 1200px) {
   .display-1 {
-    font-size: calc(1.325rem + 8.5vw);
+    font-size: calc(1.475rem + 8.5vw);
   }
 }
 
@@ -1706,7 +1706,8 @@ pre code {
 }
 
 .btn:hover {
-  color: #6c757d;
+  color: #61082b;
+  background-color: #fff;
   text-decoration: none;
 }
 
