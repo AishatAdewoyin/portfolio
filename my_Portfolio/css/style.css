@@ -50,7 +50,7 @@ section {
 body {
   margin: 0;
   font-family: "Old Standard TT", system-ui;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
   color: #6c757d;
@@ -80,7 +80,7 @@ h6 {
 
 p {
   margin: 0;
-  margin-bottom: 0.7rem;
+  margin-bottom: 0.4rem;
 }
 
 abbr[title],
@@ -9270,8 +9270,14 @@ h6,
   }
 }
 
+.typed-text-output {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 2rem;
+}
+
+
 .typed-cursor {
-  font-size: 45px;
+  font-size: 1.2rem;
   color: #ffffff;
 }
 
